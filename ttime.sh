@@ -13,7 +13,7 @@ file="$dir/ttime.log";
 date '+HE 1%F %T.%N%z %Z (%B, week %V, %A %j)' >> "$file";#sunrise,sunset,weather,.. (annual week, not anu week)
 tail "$file";
 echo;
-echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime';
+echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime, comparator(rate×comparison) usage statistics,..';
 echo;
 # useful /1*liners?/!!! :D
 echo "$dir/ttime.sh;";
