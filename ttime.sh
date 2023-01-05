@@ -1,7 +1,9 @@
 #!/usr/bin/env sh
 #shlog:
 # "create ttime"
-# source.md files don't wrap, source.language is better than built-in(look-a-like)s #varcase
+# source.md files don't autowrap, source.language is better than built-in(look-a-like)s #varcase
+#todo:
+# security feature: full addressable paths; packages can crack env, and probably every"-thing" else anyway
 clear;
 sync;#time not found‽‽‽ :D
 dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)";#https://stackoverflow.com/a/29835459#https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08_01
