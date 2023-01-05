@@ -23,7 +23,7 @@ https://www.redhat.com/sysadmin/learn-bash-scripting
  https://guide.bash.academy/
 https://www.redhat.com/sysadmin/exit-codes-demystified
 https://www.redhat.com/sysadmin/sysadmin-backup-technology
- what's 3-2-1 backup? i'm 3 onsite, same medium tech #gold(en)ilocks
+ what's 3-2-1 backup? i'm 3 onsite, same medium tech #gold(en)ilocks #/battydr?eadlocks/
 https://linuxhint.com/best-way-to-learn-bash-scripting/
 https://www.thegeekstuff.com/2010/07/three-sysadmin-rules/
  it is a gui iff you can see it; it is a ui iff you can interface c̄ it
