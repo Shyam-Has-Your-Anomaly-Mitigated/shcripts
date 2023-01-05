@@ -11,7 +11,7 @@ tail "$file";
 echo;
 echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime';
 echo;
-# useful /1*liners/!!! :D
-echo "$dir/ttime;";
+# useful /1*liners?/!!! :D
+echo "$dir/ttime.sh;";
 echo 'clear;df -h;echo;time sync;echo;df -h;';
 echo 'clear;time sync;cd "$some_other_dir";emacs "$some_other_file-dir";';
