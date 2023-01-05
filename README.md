@@ -4,7 +4,7 @@
 # shcripts
 shcrypts
 
-# i can't believe github doesn't support eupl; the most legal license #aikido
+# i can't believe github doesn't support eupl; the most legal license #aikido(the most legal fencing is air fencing) #miranda(the most legal #word)
 /katas|../ are /libraries|../
 
 # https://github.com/Shyam-Has-Your-Anomaly-Mitigated/shyam
