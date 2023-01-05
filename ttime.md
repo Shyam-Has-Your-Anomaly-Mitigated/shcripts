@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+#shlog:
+# create ttime
+clear;
+sync;#time not found‽‽‽ :D
+dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)";#https://stackoverflow.com/a/29835459#https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08_01
+file="$dir/ttime.log";
+date +1%F\ %T >> "$file";
+tail "$file";
+echo;
+echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime';
+echo;
+# useful /1*liners/!!! :D
+echo "$dir/ttime;";
+echo 'clear;df -h;echo;time sync;echo;df -h;';
+echo 'clear;time sync;cd "$some_other_dir";emacs "$some_other_file-dir";';
