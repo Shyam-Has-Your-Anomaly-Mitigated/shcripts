@@ -10,7 +10,7 @@ clear;
 sync;#time not found‽‽‽ :D
 dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)";#https://stackoverflow.com/a/29835459#https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08_01
 file="$dir/ttime.log";
-date +1%F\ %T >> "$file";
+date +1%F\ %T.%N >> "$file";
 tail "$file";
 echo;
 echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime';
