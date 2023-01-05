@@ -1,5 +1,6 @@
 *A good SysAdmin does little, to none, actual admin; we just make it possible for everyone else to do our job for us.*
 <br/>-- **S**hyam **H**as **Y**our **A**nomaly **M**itigated!!! :D
+<br/>s/.*intelligence/user intelligence/
 ```
 # shcripts
 shcrypts
