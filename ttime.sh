@@ -11,7 +11,7 @@ sync;#time not found‽‽‽ :D
 df -Th;#echo 'clear;df -h;echo;time sync;echo;df -h;';
 dir="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)";#https://stackoverflow.com/a/29835459#https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap08.html#tag_08_01
 file="$dir/ttime.log";
-date '+HE 1%F %T.%N%z %Z (%B, week %V, %A %j)' >> "$file";#sunrise,sunset,weather,.. (annual week, not anu week)
+date '+HE 1%Y∘%m∘%d∘%H∘%M∘%S∘%N%z %Z (%B, week %V, %A %j)' >> "$file";#sunrise,sunset,weather,.. (annual week, not anu week)
 tail "$file";
 echo;
 echo '/(key|mouse(clicks; to avoid value drift)|voice(recognition; to avoid value drift)|gesture(recognition; to avoid value drift)|eeg(recognition; to avoid value drift))logger/ makes this redundant; temporal shelllogs for autottime, comparator(rate×comparison) usage statistics,..';
